@@ -6,6 +6,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
 import { QueryInterfaceComponent } from './query-interface/query-interface.component';
+import { UiModule } from './ui/ui.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { QueryInterfaceComponent } from './query-interface/query-interface.compo
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    UiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
