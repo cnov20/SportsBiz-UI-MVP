@@ -4,6 +4,8 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent }   from './about/about.component';
+import { QueryInterfaceComponent} from './query-interface/query-interface.component';
+
 
 // Master list of all available routes
 // Declared as "const" to mitigate risk of
@@ -18,6 +20,11 @@ const appRoutes: Routes = [
 	{
     	path: 'about',
     	component: AboutComponent
+  	},
+
+  	{
+    	path: 'query-interface',
+    	component: QueryInterfaceComponent
   	}
 
 ];
