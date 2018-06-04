@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
+import { QueryInterfaceComponent } from './query-interface/query-interface.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    AboutComponent
+    AboutComponent,
+    QueryInterfaceComponent
   ],
   imports: [
     BrowserModule,
