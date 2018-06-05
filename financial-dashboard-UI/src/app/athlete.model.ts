@@ -1,0 +1,33 @@
+export class Athlete {
+  constructor (
+  	public athlete: string, 
+  	public sport: string, 
+  	public position: string, 
+  	public team: string,
+  	public salary: number,
+  	public bonuses: number,
+  	public totalCompensation: number,
+  	public percentGuaranteed: number,
+  	public contractDuration: number,
+  	public yearsUnderContract: number,
+  	public contractTotal: number,
+  	public athleteAgent: string,
+  	public agency: string,
+  	public featuredEndorser: string,
+  	public numMajorEndorsements: number,
+  	public endorsementValue: number,
+  	public numTwitterFollowers: number,
+  	public numFacebookFollowers: number,
+  	public numInstagramFollowers: number,
+  	public totalFollowers: number,
+  	public totalEngagmentRate: number,
+  	public jerseyRank: number,
+  	public totalShoeSales: number,
+  	public numOfFines: number,
+  	public numOfArrests: number,
+  	public numOfSuspensions: number,
+  	public totalFines: number,
+  	public overallMVFPRank: number,
+  	public inSportMVFPRank: number
+  	) {}
+}
