@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Athlete } from '../athlete.model';
 
 @Component({
   selector: 'app-query-interface',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QueryInterfaceComponent implements OnInit {
 
-  constructor() { }
+	athletes: Athlete[]
 
-  ngOnInit() {
-  }
+	constructor() { }
+
+	ngOnInit() {
+		
+	}	
 
 }

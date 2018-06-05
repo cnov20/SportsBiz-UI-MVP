@@ -1,3 +1,21 @@
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+<script type='text/javascript'>    
+  var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1avDLS8aOnRU1ypTutpleGt1cfWT6tBL9NLKJO8GJM2I/edit?ts=5af12ccb#gid=915866236';
+
+  function init() {
+    Tabletop.init( { key: publicSpreadsheetUrl,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+
+  function showInfo(data, tabletop) {
+    alert('Successfully processed!')
+    console.log(data);
+  }
+
+  window.addEventListener('DOMContentLoaded', init);
+</script>
+
 <h2>Query Interface</h2>
 
 <p>Financial Query User Interface to come!</p>
